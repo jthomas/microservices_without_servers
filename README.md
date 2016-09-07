@@ -6,7 +6,7 @@ This repository contains resources from my conference talk about building server
 
 Slides for the talk are available here:  [https://speakerdeck.com/jthomas/microservices-without-servers](https://speakerdeck.com/jthomas/microservices-without-servers). 
 
-There's a transcript for the talk in [transcript.md]().
+There's a transcript for the talk in [transcript.md](transcript.md).
 
 Code samples used during the talk, with usage instructions, are available under the [code](code) directory. 
 
