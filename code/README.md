@@ -21,8 +21,6 @@ These steps explain how to provision a new OpenWhisk service on IBM's cloud plat
 
 - Log into IBM Bluemix using your new credentials.
 
-  ​
-
 ## Setting up your account
 
 - During this initial logon, developers are asked to set up _organisation_ and _space_ identifiers for their region.
@@ -30,8 +28,6 @@ These steps explain how to provision a new OpenWhisk service on IBM's cloud plat
 - Use your account email address as the organisation identifier.
 - Use _dev_ as the space identifier.
 - Click _I'm Ready_ to finalise environment setup.
-
-
 
 ## OpenWhisk on IBM Bluemix
 
@@ -47,8 +43,6 @@ OpenWhisk is currently in beta (September 2016) and only available through new I
 
 - Select the [Use The CLI](https://new-console.ng.bluemix.net/openwhisk/cli) link at the bottom of the page.
 
-  ​
-
 ## Setting up OpenWhisk CLI
 
 - Follow the steps on the CLI setup page. This includes downloading and installing the command-line utility and authenticating with your user credentials. 
@@ -58,8 +52,6 @@ OpenWhisk is currently in beta (September 2016) and only available through new I
   ```
   wsk action invoke /whisk.system/samples/echo -p message hello --blocking --result
   ```
-
-
 
 
 **All good? Great, you're ready to deploy those demos…**
