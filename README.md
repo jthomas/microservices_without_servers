@@ -4,11 +4,9 @@ Welcome 😎
 
 This repository contains resources from my conference talk about building serverless applications.
 
-Slides for the talk are available externally on Speaker Deck, [https://speakerdeck.com/jthomas/microservices-without-servers](https://speakerdeck.com/jthomas/microservices-without-servers). 
+Slides for the talk are available here:  [https://speakerdeck.com/jthomas/microservices-without-servers](https://speakerdeck.com/jthomas/microservices-without-servers). There's a transcript for the talk in [transcript.md]().
 
-There's a transcript for the talk in [transcript.md]().
-
-Code samples used during the talk, with usage instructions, are availalbe under the [code]() directory. 
+Code samples used during the talk, with usage instructions, are available under the [code]() directory. 
 
 **If you have any questions or comments, feel free to raise an issue or send me a tweet ([@thomasj](https://twitter.com/thomasj)).**
 
