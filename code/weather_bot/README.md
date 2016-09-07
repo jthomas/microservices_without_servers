@@ -2,7 +2,7 @@
 
 This demonstration creates a bot for Slack that can help notify users with weather forecasts. Users can ask the bot for the forecast for a specific location by sending a chat message. The bot can also be configured to send the forecast for a location at regular intervals, e.g. everyday at 8am. 
 
-This bot needs to perform a few functions, e.g. convert addresses to locations, retrieve weather forecasts for locations and integrate with Slack. Rather than implementing the bot as a monolithic application, containing logic for all these features, I want to go deploy it as seperate services. 
+This bot needs to perform a few functions, e.g. convert addresses to locations, retrieve weather forecasts for locations and integrate with Slack. Rather than implementing the bot as a monolithic application, containing logic for all these features, I want to go deploy it as separate services. 
 
 Later on, we'll look at using a neat feature of the platform (sequences) to bind them together to create our bot with writing any code. 
 
@@ -40,7 +40,7 @@ function main(params) {
 
 This microservice implements the application logic within a single function (_main_) which is the interface used by OpenWhisk. Parameters are passed in as an object argument (_params_) to the function call. This service makes an API call to the Google Geocoding API, returning the results from API response for the first address match. 
 
-Returning a Promise from the function means we can return the service response asychronously. 
+Returning a Promise from the function means we can return the service response asynchronously. 
 
 Let's deploy this service and invoke it to verify it's working… 
 

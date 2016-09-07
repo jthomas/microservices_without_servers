@@ -9,7 +9,7 @@ Example code used in this presentation is included within this directory. Each s
 
 ## OpenWhisk on IBM Bluemix
 
-These steps explain how to provision a new OpenWhisk service on IBM's cloud platform. Developers need to register for an account, provision the service and setup the command-line utility to interact with OpenWhisk. 
+These steps explain how to provision a new OpenWhisk service on IBM's cloud platform. Developers need to register for an account and setup the command-line utility to interact with OpenWhisk. 
 
 ## Register for an account with IBM Bluemix
 
@@ -58,6 +58,7 @@ OpenWhisk is currently in beta (September 2016) and only available through new I
   ```
   wsk action invoke /whisk.system/samples/echo -p message hello --blocking --result
   ```
+
 
 
 
