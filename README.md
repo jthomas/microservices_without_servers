@@ -8,7 +8,7 @@ Slides for the talk are available here:  [https://speakerdeck.com/jthomas/micros
 
 There's a transcript for the talk in [transcript.md](transcript.md).
 
-Code samples used during the talk, with usage instructions, are available under the [code](code) directory. 
+Code samples used during the talk, with usage instructions, are available under the [code](code) directory. Video recordings for the demonstrations can be viewed [here](https://www.youtube.com/playlist?list=PL0UyhC0D6KABYPvGroXcIeE-4x_yEbdB4).
 
 **If you have any questions or comments, feel free to raise an issue or send me a tweet ([@thomasj](https://twitter.com/thomasj)).**
 
