@@ -6,6 +6,8 @@ The same services have been implemented in both Java and Node.js.
 
 Having followed the instructions in the parent directory for registering with the OpenWhisk platform and installing the CLI tool, follow the steps below...
 
+*There's a video recording for this demonstration available [here](https://www.youtube.com/watch?v=rSmJn6ahrEM).*
+
 ## Node.js "Hello World"
 
 This sample Node.js microservice, _hello_name.js_, returns a greeting to the user when invoked. If the invocation includes the request parameter, _user_, it will be included in the response string.
