@@ -6,6 +6,8 @@ This bot needs to perform a few functions, e.g. convert addresses to locations, 
 
 Later on, we'll look at using a neat feature of the platform (sequences) to bind them together to create our bot with writing any code. 
 
+*There's video recordings for these demonstrations available [here](https://youtu.be/GrtWmGPmWsM) and [here](https://youtu.be/WcsQXohs_hE).*
+
 ## Address To Locations Service
 
 This service handles retrieving latitude and longitude coordinates for addresses using an external Geocoding API. 
