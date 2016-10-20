@@ -174,7 +174,7 @@ Seeing the message pop-up in our Slack channel verifies this works.
 I'd like to bind default parameters for the Action but this isn't supported without copying global packages to your local namespace first. Let's do this now...
 
 ```
-$ wsk action create --copy webhook /whisk.system/slack/post -p url $WEBHOOK -p username "Weather Bot" -p icon_emoji ":sun_with_face:"
+$ wsk action create --copy webhook /whisk.system/slack/post -p url $WEBHOOK -p channel $CHANNEL -p username "Weather Bot" -p icon_emoji ":sun_with_face:"
 
 ok: created action webhook
 ```
