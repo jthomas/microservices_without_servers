@@ -165,7 +165,7 @@ package /whisk.system/slack: This package interacts with the Slack messaging ser
 We can then invoke this Action to post messages to Slack without writing any code. 
 
 ```
-$ wsk action invoke /whisk.system/slack/post -p text "Hello" -p url $WEBHOOK_URL
+$ wsk action invoke /whisk.system/slack/post -p text "Hello" -p channel $CHANNEL -p url $WEBHOOK_URL
 ok: invoked /whisk.system/slack/post with id 78070fe2acb54c70ae49c0fa047aee51
 ```
 
