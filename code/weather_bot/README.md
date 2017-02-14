@@ -234,7 +234,7 @@ One solution for this issue is to use an external [API gateway](http://microserv
 
 **The public endpoint below acts as proxy between OpenWhisk Actions and the Slack Outgoing Webhooks. You can use this API, passing in your Action details as query parameters, rather than having to manually set up and configure an API Gateway service.**
 
-https://weatherbot-slack-outgoing-webhook.mybluemix.net/?action=ACTION&namespace=NAMESPACE&apikey=APIKEY
+https://weatherbot-slack-outgoing-webhook.mybluemix.net/?action=ACTION&namespace=NAMESPACE&api_key=APIKEY
 
 _Remember to replace the ACTION, NAMESPACE and APIKEY values with your account credentials._
 
