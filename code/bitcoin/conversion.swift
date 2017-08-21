@@ -41,12 +41,29 @@ func currentBitcoinPricesJson() -> JSON? {
   return json
 }
 
+func parseAmount(args: [String: Any]) -> Double? {
+  if let amountStr = args["amount"] as? String {
+    return Double(amountStr)
+  }
+
+  if let amountInt  = args["amount"] as? Int {
+    return Double(amountInt)
+  }
+
+  if let amountDbl = args["amount"] as? Double {
+    return amountDbl
+  }
+
+  return nil
+ }
+
 func main(args: [String:Any]) -> [String:Any] {
+  print(args)
   guard let currency = args["currency"] as? String else {
     return [ "error": "Missing mandatory argument: currency" ]
   }
 
-  guard let amount = args["amount"] as? Int else {
+  guard let amount = parseAmount(args: args) else {
     return [ "error": "Missing mandatory argument: amount" ]
   }
 
@@ -58,7 +75,7 @@ func main(args: [String:Any]) -> [String:Any] {
     return [ "error": "Currency not listed in Bitcoin prices" ]
   }
 
-  let converted = Double(amount) / rate
+  let converted = amount / rate
   let bitcoins = converted.truncate(places: 6)
   return ["amount": bitcoins, "label": "\(amount) \(currency) is worth \(bitcoins) bitcoins."]
 }
