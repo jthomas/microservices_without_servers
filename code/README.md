@@ -4,6 +4,7 @@ Example code used in this presentation is included within this directory. Each s
 
 - **Hello World** - Introductory examples creating OpenWhisk Actions for Node.js and Java.
 - **Weather Bot** - Sample microservices used to build the *Weather Bot* application using OpenWhisk.
+- **Bitcoin API** - Create HTTP APIs for OpenWhisk Actions using Web Actions or API Gateway.
 
 *Developers need to register with an OpenWhisk platform to deploy these examples, see instructions below for IBM Bluemix.*
 
@@ -33,7 +34,7 @@ These steps explain how to provision a new OpenWhisk service on IBM's cloud plat
 
 _Note: You can skip the following steps and visit the [CLI setup link](https://new-console.ng.bluemix.net/openwhisk/cli) directly without having to manually find it._
 
-OpenWhisk is currently in beta (September 2016) and only available through new IBM Bluemix UI. Once you've logged into the platform and finished setting up your account, follow these steps to provision an instance. 
+Once you've logged into the platform and finished setting up your account, follow these steps to provision an instance. 
 
 - Click the "[Try the new Bluemix](https://new-console.eu-gb.bluemix.net/)" link in the home page.
 
